@@ -70,7 +70,7 @@ return lush(function()
 
     -- Syntax (Vim)
 
-    Comment { fg = colors.fg_dim, italic = true },
+    Comment { fg = colors.blue, italic = true },
 
     Constant { fg = colors.pink },
     String { fg = colors.green },
@@ -79,15 +79,15 @@ return lush(function()
     Boolean { fg = colors.orange },
     Float { Number },
 
-    Identifier { fg = colors.cyan },
-    Function { fg = colors.purple },
+    Identifier { fg = colors.orange },
+    Function { fg = colors.orange },
 
-    Statement { fg = colors.orange },
+    Statement { fg = colors.yellow },
     Conditional { Statement },
     Repeat { Statement },
     Label { Statement },
     Operator { fg = colors.fg },
-    Keyword { fg = colors.orange },
+    Keyword { fg = colors.yellow },
     Exception { Statement },
 
     PreProc { fg = colors.yellow },
