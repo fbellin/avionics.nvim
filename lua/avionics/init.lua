@@ -1,1 +1,1 @@
-require("lush")(require("lush.lua"))
+require("lush")(require("avionics.lush"))
