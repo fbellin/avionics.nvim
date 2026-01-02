@@ -1,1 +1,1 @@
-require("lush")(require("avionics.lush"))
+require("lush")(require("avionics.avionics"))
