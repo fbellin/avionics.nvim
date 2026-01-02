@@ -72,15 +72,15 @@ return lush(function()
 
     Comment { fg = colors.blue, italic = true },
 
-    Constant { fg = colors.pink },
-    String { fg = colors.green },
-    Character { String },
-    Number { fg = colors.pink },
+    Constant { fg = colors.purple },
+    String { fg = colors.fg },
+    Character { fg = colors.fg },
+    Number { fg = colors.purple },
     Boolean { fg = colors.orange },
     Float { Number },
 
-    Identifier { fg = colors.orange },
-    Function { fg = colors.orange },
+    Identifier { fg = colors.fg_dim },
+    Function { fg = colors.fg_dim },
 
     Statement { fg = colors.yellow },
     Conditional { Statement },
