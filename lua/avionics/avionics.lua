@@ -101,7 +101,7 @@ return lush(function()
     Structure { Type },
     Typedef { Type },
 
-    Special { fg = colors.cyan },
+    Special { fg = colors.red },
     SpecialChar { Special },
     Tag { fg = colors.orange },
     Delimiter { fg = colors.fg },
