@@ -1,6 +1,5 @@
 local lush = require("lush")
 local hsl = lush.hsl
-local sym = lush.sym
 
 -- Color palette
 local colors = {
@@ -110,33 +109,6 @@ return lush(function()
 
     Error { fg = colors.error },
     Todo { fg = colors.yellow, bold = true },
-
-    -- Treesitter
-
-    sym("@comment") { Comment },
-    sym("@string") { String },
-    sym("@number") { Number },
-    sym("@boolean") { Boolean },
-    sym("@constant") { Constant },
-    sym("@function") { Function },
-    sym("@method") { Function },
-    sym("@variable") { fg = colors.fg },
-    sym("@parameter") { fg = colors.cyan },
-    sym("@field") { fg = colors.cyan },
-    sym("@property") { fg = colors.cyan },
-
-    sym("@keyword") { Keyword },
-    sym("@keyword.function") { Keyword },
-    sym("@keyword.return") { Keyword },
-    sym("@conditional") { Conditional },
-    sym("@repeat") { Repeat },
-
-    sym("@type") { Type },
-    sym("@type.builtin") { fg = colors.blue.lighten(10) },
-
-    sym("@operator") { Operator },
-    sym("@punctuation") { fg = colors.fg_dim },
-
 
     -- LSP Diagnostics
 
